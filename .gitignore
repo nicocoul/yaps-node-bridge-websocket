@@ -1,0 +1,5 @@
+node_modules/
+coverage/
+.vscode/
+obsolete/
+tests/tmp

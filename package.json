@@ -1,0 +1,47 @@
+{
+  "name": "yaps-node-bridge-websocket",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Nicolas Coulon <coulon_nicolas@hotmail.com> (https://github.com/nicocoul)",
+  "keywords": [
+    "rpc",
+    "websocket",
+    "pubsub",
+    "socket",
+    "tcp",
+    "tls",
+    "networking",
+    "realtime",
+    "server",
+    "client"
+  ],
+  "homepage": "https://github.com/nicocoul/yaps-node-bridge-websocket",
+  "bugs": {
+    "url": "https://github.com/nicocoul/yaps-node-bridge-websocket/issues"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "jest --detectOpenHandles",
+    "lint": "eslint",
+    "lint:fix": "eslint --ext .js --fix"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2",
+    "websocket": "^1.0.34",
+    "ws": "^8.2.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "jest": "^27.0.4",
+    "jest-cli": "^27.0.4",
+    "jest-junit": "^12.2.0"
+  }
+}
