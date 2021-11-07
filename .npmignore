@@ -1,0 +1,11 @@
+.npmignore
+.gitignore
+.eslintrc
+.git/
+.lock-*
+node_modules/
+examples/
+docs/
+build/
+tests/
+tmp/
